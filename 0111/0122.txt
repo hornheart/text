@@ -1,0 +1,124 @@
+0122 **연산자** 
+
+
+ 상수 = 대문자
+ 언더바로 연결해서 이름이 둘 이상을 구분
+ 
+ 형변환 -> 연산시에 메모리 크기가 다르기 때문에 
+
+ sc.next -> 공백 나올 때 까지만!
+
+
+ prinrtln VS printf
+
+ ++A
+ --A
+VS
+ A++
+ A--
+
+ if (조건식 = true OR false)
+
+ if else VS (  )?(  ):(  )
+
+
+ switch(문자, 문자열, 변수)
+
+ for -> 장바구니 사용시 구매금액 합산을 
+         배열의 끝까지
+     -> 중첩이 많음
+
+
+while -> 조건이 확실히 정해지지 않은 상태
+       -> for문에 비교하면, 중첩이 적은 편
+
+ break -> 반복문(continue) OR switch에서  탈출 가능
+
+ 1차원 배열 Array -> 예: 정수 10개를 한번에 
+ int[ ] ref = new int [5]
+
+ 참조 변수(=주소 값)와 일반 변수(=값 자체를 기입)
+ int a;
+ int [ ] a;
+
+ class -> (아직 정의되지 않은) 설계도
+
+ 객체 -> (메모리 공간이 정해져 있는지) 
+
+
+ static -> comfile
+
+
+
+
+
+
+
+
+
+
+fild 단축키
+package com.kh.Test0122;
+
+public class Book {
+	//필드
+	private String title; //제목
+	private String genre; //장르
+	private String author; //저자
+	private int number; //책번호
+	// alt + shift + s => o
+	public Book(String title, String genre, String author, int number) {
+		super();
+		this.title = title;
+		this.genre = genre;
+		this.author = author;
+		this.number = number;
+	}
+	public Book(String title, String genre) {
+		super();
+		this.title = title;
+		this.genre = genre;
+	}
+	// alt + shift + s => r
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public int getNumber() {
+		return number;
+	}
+	public void setNumber(int number) {
+		this.number = number;
+	}
+	
+	// alt + shift + s => s
+	@Override
+	public String toString() {
+		return "Book [title=" + title + ", genre=" + genre + ", author=" + author + ", number=" + number + "]";
+	}
+
+
+
+
+
+
+}
+
+
+
+syso+ctrl+ sp+enter
+System.out.println

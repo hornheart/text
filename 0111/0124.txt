@@ -1,0 +1,13 @@
+0124
+
+ - object class
+ - side effects
+
+ **상속시**
+ 부모 클래스(super or public) 먼저 실행 -> 이후, 자식(this) 클래스 실행
+ - a -> b -> c (3차례 가능)
+ - 단일 상속 권장	
+ - has a 포함 : 연관관계
+ - is a : 확장의 의미가 필요
+
+

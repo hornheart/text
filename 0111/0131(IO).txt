@@ -1,0 +1,29 @@
+0131
+==복습==
+ API
+ - 생성자 private
+ - 필드 static ==> class에 접근해서 사용
+
+ - literal : 고정된 값
+ - static : 고정된 이란 의미
+            method와 변수를 만들 수 있음
+
+ - charAt 문자열 전체 中 하나를 가져오거나 변경할 때
+ - concat 문자열을 새로운 공간을 만들어 사용
+
+ - overloading
+ - replace
+
+ - (",") split
+ - token : 문자집합 (자료형string)
+
+ - compareTo
+
+ ===LUNCH===
+ 
+ stream ( In & Out )
+
+
+
+
+==============

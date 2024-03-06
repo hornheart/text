@@ -1,0 +1,72 @@
+0130예외처리exception
+
+
+ null -> 주소값이 없는 상태
+ *NullPointException*자주발생된다!!
+
+ throw -> 인위적으로 예외처리 발생시킴
+ 위임하던지 or try ~ catch
+
+===
+
+  import.java.lang.*;
+  ===> String, Integer, System...
+  
+  원시타입 불가 -> 객체타입으로 변형
+  Integer로 감싸야 함(Boxing)
+ **toString을 하면 자동으로 호출해도
+
+ 상속받는다..
+ 모든 클래스는 toString
+ Overriding
+
+ 객체에 증감연산
+ -> intValue (언박싱) - > 박싱
+  num++;(=객체)//
+  new Integer(num.intValue() + 1);
+ 
+ (ch) static등의 단순한 목적으로 반환할 때
+ 계산 만 해서 return하면
+ 객체or Class
+ 정형화 시킨다..
+
+ -**hashcode** 짧은 것을 비교하는 경우가 多
+ - T/F 비교시사용
+
+ 리터럴 =  상수
+ ->값 그 자체가 중요 
+
+==== ===== ======
+ 개발자 경력이 多일수록 유익한 이유는
+ 코드를 많이 알고 있다
+ 개선점과 좋은 점을 구별
+ 이전의 코드에서 발전한다..
+
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+         
+        if (b >= a)
+        System.out.println("1");
+        else 
+        System.out.println("0");
+    }
+}
+ 
+
+ 
